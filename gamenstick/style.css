@@ -1,0 +1,53 @@
+
+body {
+    height: 500px;
+    width: 900px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+    background-color: rgba(24, 106, 212, 0.699);
+}
+
+#board{
+    border: solid 5px rgb(36, 150, 36);
+    background-color: black;
+}
+
+#lifeicon{
+display:inline-block;
+width:0px
+
+}
+
+#counter{
+   height:100px;
+}
+
+#lives{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 100px;
+    margin-left: 100px;
+    width: 300px;
+    display:inline-block;
+    position:fixed;
+}
+
+#score{
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+    font-size: 100px;
+    width: 100px;
+    margin-left: 500px;
+    display:inline-block;
+}
+#life{
+    width: 200px;
+}
+#play{
+    width: 200px;
+    margin-left: 500px;
+}
+#lifebutton{
+    float:left;
+}
+

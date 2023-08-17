@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Mr. Game N Run</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <canvas id="board" width = "900" height = "500" ></canvas>
+        <div id="info">
+            <div id="lifeicon"><image id="counter" src="lives.png"></image></div>
+            <div id="lives">1</div> 
+            <div id="score">0</div>
+        </div>
+        <div id="buttons">
+            <div id="lifebutton"><image id="life" src="life.png" onclick="extraLifer()"></image></div>
+            <div id="playbutton"><image id="play" src="play.png" onclick="playButton()"></image></div>
+        </div>
+
+
+        <script src="index.js"></script>
+    </body>
+</html>
